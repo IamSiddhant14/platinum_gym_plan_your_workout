@@ -1,10 +1,16 @@
-import React from 'react'
+import React , { useState , useEffect } from 'react'
+import { useParams } from 'react-router-dom'
+import { Box } from '@mui/material'
+
+import { exerciseOptions , fetchData } from '../utils/fetchData'
 
 const ExerciseDetail = () => {
   return (
-    <div>
-      This is ExerciseDetails page
-    </div>
+      <Box>
+        <Detail />
+        <ExerciseVedios />
+        <SimilarExercises />
+      </Box>
   )
 }
 
