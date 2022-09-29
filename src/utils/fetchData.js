@@ -23,4 +23,5 @@ export const fetchData = async ( url , options ) => {
     const data = responce.json();
 
     return data;
+    
 }
