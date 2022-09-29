@@ -3,7 +3,7 @@ import { Typography, Box, Stack } from '@mui/material';
 import Loader from './Loader';
 
 const ExerciseVideos = ({ exerciseVideos, name }) => {
-  console.log(name)
+
   if (!exerciseVideos.length) return <Loader />;
 
   return (
