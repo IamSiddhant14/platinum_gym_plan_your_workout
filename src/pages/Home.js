@@ -10,7 +10,6 @@ const Home = () => {
   const [bodyPart, setBodyPart] = useState('all');
 
  
-
   return (
     <Box>
       <HeroBanner />
